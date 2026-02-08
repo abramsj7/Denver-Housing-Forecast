@@ -42,18 +42,23 @@ Feature labeling and augmentation are performed through time-based transformatio
 (month-over-month change, year-over-year change, rolling averages) to encode temporal
 dynamics suitable for analysis and modeling.
 
----
+## Data Files Setup & Structure
 
-## Project Structure
+After cloning the repository, create a folder named `data/` in the project root and place both CSV files inside it:
 
-```text
-Project 1/
-├── Project1.ipynb        # Main analysis notebook
-├── environment.yml       # Conda environment specification
-├── run_project1.sh       # Optional execution helper script
-├── data/                # Raw Zillow datasets
+The `outputs/` directory is used to store any intermediate or generated results (such as processed datasets or saved model outputs) created during notebook execution.
+
+If the directory does not exist, it can be created manually or will be automatically generated when the notebook is run. The project does not require any pre-populated files in `outputs/` to execute successfully.
+
+```
+COMP-4449-Project-1/
+├── Project1.ipynb
+├── environment.yml
+├── data/
+│   ├── ZHVI.csv
+│   └── ZHVF.csv
 ├── outputs/             # Processed data and model outputs
-└── README.md             # Project documentation
+└── README.md            # Project documentation
 
 
 ```
