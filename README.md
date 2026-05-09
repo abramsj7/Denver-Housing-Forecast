@@ -382,7 +382,15 @@ This project is fully reproducible using a Conda-managed environment. All depend
 are explicitly defined in `environment.yml`, ensuring consistent results across operating
 systems and machines.
 
-Detailed, platform-specific setup instructions are provided in the
-**How to Run This Project** section above.
+---
 
+## Interview Talking Points
 
+- Built a time-series forecasting project analyzing Denver housing market trends using Zillow data.
+- Cleaned and prepared historical housing datasets for forecasting and trend analysis.
+- Applied ARIMA/SARIMA forecasting models to predict future home price movements.
+- Compared model forecasts against Zillow forecast data to evaluate prediction accuracy.
+- Created visualizations to analyze long-term housing price trends and forecast performance.
+- Worked with time-series preprocessing techniques such as trend analysis and date indexing.
+- Used Python libraries including Pandas, Statsmodels, Matplotlib, and Scikit-learn for analysis and modeling.
+- Detailed, platform-specific setup instructions are provided in the **How to Run This Project** section above.
