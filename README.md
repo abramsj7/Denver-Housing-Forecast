@@ -1,4 +1,4 @@
-# Denver Housing Forecast
+# Denver Housing Time Series
 Time-series analysis and forecasting of the Denver housing market using ZHVI data
 
 # Denver Housing Market Time-Series Analysis
